@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PaymentComponent } from './payment/payment.component';
 
+// Routes
 const routes: Routes = [
   { path: '', component: PaymentComponent, pathMatch: 'full' },
 ];
